@@ -15,7 +15,7 @@ from audio_in_image import Start_Encode, Start_Decode
 from logger import log_event
 
 app = Flask(__name__)
-CORS(app, resources={r"/api/*": {"origins": "*"}})
+CORS(app, resources={r"/api/*": {"origins": "https://jyothsna1076.github.io"}})
 
 UPLOAD_FOLDER = "static/uploads"
 OUTPUT_FOLDER = "static/outputs"
